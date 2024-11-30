@@ -8,6 +8,7 @@
 //返回值：base64字符串
 char * base64_encode( const unsigned char * bindata, int binlength, char * base64 );
 
+
 //解码base64
 //base64：源字符串
 //bindata: 目的字符串
