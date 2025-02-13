@@ -27,19 +27,6 @@
 
     >秒传：客户端发送文件数据，web服务器转发请求，对应cgi程序解析出文件信息，根据md5值查询file_info表，判断文件是否已上传过，若上传过，仅需要将文件的计数器加1，并更新相关表值即可
 
-## 演示
-<p align="center">
-    <img src="./demo/register.png" width = "320" ><img src="./demo/login.png" width = "320">
-</p>
-
-<p align="center">
-    <img src="./demo/upload.png" width = "320" ><img src="./demo/download.png" width = "320">
-</p>
-
-<p align="center">
-    <img src="./demo/transfer.png" width = "320"><img src="./demo/share_list.png" width = "320">
-</p>
-
 ## 目录树
 ```
  .
